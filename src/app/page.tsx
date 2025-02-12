@@ -1,9 +1,12 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { Typography } from "@mui/material";
 
 export default function Home() {
   return (
     <div className={styles.page}>
+          <h4>Bienvenido a Skill Match</h4>
+
       <main className={styles.main}>
         <Image
           className={styles.logo}
